@@ -1,0 +1,279 @@
+body{
+    background:linear-gradient(#2b1055, #7597de);
+    min-height: 100vh;
+    background-image:url(./wallpapersden.com_moon-space-minimal_2880x1800.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:#19181D;
+}
+.containerer{
+width: 1440px;
+}
+/* NAVIGATION BAR */
+.navigation-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 120px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+.navigation-list{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.navigation-list__item:hover{
+    background:#7597de;
+    border-radius: 10px;
+    padding: 4px 10px;
+    transition: 0.2s;
+}
+/* ------------------- */
+/*------- HERO-------- */
+.hero-section-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+    padding-top: 50px;
+
+}
+.hero-section-1__text{
+    color:white;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: left ;
+}
+.hero-section-1__paragraph{
+    color:white;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 170px;
+    margin-right: 150px;
+    text-align: right;
+    font-weight: 500;
+}
+/* --------- */
+/* CARDS */
+.talents{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 108px;
+}
+.talents-sattelite__right{
+    margin-top: 90px;
+}
+.talents-2__moon{
+    margin-top: 140px;
+}
+.talents-text{
+    color:white;
+    font-size: 70px;
+    line-height: 45px;
+    margin-top: 170px;
+    margin-left: 160px;
+    text-align: left;
+    font-weight: 700;
+}
+.talents-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.talents-2__info-list{
+    color: white;
+    list-style-type: none;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 170px;
+}
+.talents-2__info-list__item{
+    margin-top: 40px;
+}
+.rocket-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 72px;
+}
+/* -------------------- */
+.skills-txt{
+    color:white;
+    font-size: 70px;
+    line-height: 45px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 700;
+}
+.skills{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:40px 145px;
+}
+.ES6{
+    width: 350px;
+    height: 230px;
+    border-radius: 20px;
+    color:white;
+    background-color: #B1939366;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.img-ES6{
+    margin-top: 15px;
+}
+.subtitle-ES6{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.order-ES6-1{
+    text-decoration: none;
+    border:1px solid white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius:20px;
+    color:white;
+}
+.order-ES6-1:hover{
+    color:#F47933;
+    border:1px solid #F47933;
+    transition:1s;
+}
+.order-ES6-2{
+    text-decoration: none;
+    border:1px solid white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius:20px;
+    color:white;
+}
+.order-ES6-2:hover{
+    color:#F99D34;
+    border:1px solid #F99D34;
+    transition:1s;
+}
+.order-ES6-3{
+    text-decoration: none;
+    border:1px solid white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius:20px;
+    color:white;
+}
+.order-ES6-3:hover{
+    color:#008FD5;
+    border:1px solid #008FD5;
+    transition:1s;
+}
+/* --------- */
+/* PLANETS' SECTION */
+.planet-block{
+    margin-top: 100px;
+}
+.planet{
+    display: flex;
+    justify-content: space-between;
+    margin:0 50px;
+    margin-bottom: 100px;
+}
+.planet_end{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 50px;
+    margin-bottom: 100px;
+}
+
+.planet-block__text{
+    margin-bottom: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    color:white;
+    text-align: center;
+}
+/* CONTACTS */
+.contacts-info_txt{
+    font-size: 70px;
+    font-weight: 700;
+    color:white;
+    margin-left: 200px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.contacts-txt{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 105px;
+    color:white;
+    margin-left: 200px;
+}
+.contacts-img{
+    margin-right: 200px;
+
+}
+.me{
+    text-align: right;
+    color:white;
+    margin-bottom: 135px;
+}
+/* ------- */
+/* FOOTER */
+.footer{
+    height: 180px;
+    background-color:#19181d;
+    border-top:1px solid grey;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin:0 120px;
+}
+.logo-foot{
+    display: flex;
+    align-items:center;
+}
+.foot-nav{
+display: flex;
+justify-content: space-between;
+width: 570px;
+}
+.footer-navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.footer-navbar_list{
+    margin-right: 90px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.copyright{
+    color:#7D7D7D;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+/* ---------- */
